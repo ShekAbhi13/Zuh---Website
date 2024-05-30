@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website design</title>
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--css sheet-->
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar"> 
+            <a href="#home" class="active">Home</a> <!--active because this is the home page-->
+            <a href="#about">About me</a>
+            <a href="#gallery">Pictures</a>
+            <a href="#video">Video</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div> <!--this is for the moon icon to indicate dark mode-->
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello! I am,</h3>
+            <h1>Zuhayr <span>Cader</span></h1>
+            <p>Welcome to my portfolio! This collection of projects and information is designed to give you a deeper understanding of my skills and experience in Web Development/Photography/Videography.  I'm passionate about Web Designing and I'm always eager to learn and grow.  Take a look around and feel free to reach out if you have any questions!</p>
+            
+            <div class="social-media"> <!--icons for social media stuff-->
+                <a href="https://www.tiktok.com/@zuh.__?_t=8mZPOyijCxq&_r=1"><i class='bx bxl-tiktok' ></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100009517454448&mibextid=LQQJ4d"><i class='bx bxl-facebook-square' ></i></a>
+                <a href="https://www.instagram.com/polavoid.z?igsh=dXdhd2p4azJkcTFk&utm_source=qr"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.youtube.com/channel/UCesPLnRb2qmr5j1Hs2l_aIw"><i class='bx bxl-youtube' ></i></a>
+                <a href="https://github.com/LeZuh20"><i class='bx bxl-github' ></i></a>
+                <a href="https://unsplash.com/@z_cad3r?utm_source=unsplash&utm_campaign=unsplash-ios&utm_medium=referral&utm_content=view-user-on-unsplash"><i class='bx bxl-unsplash' ></i></a>
+            </div>
+
+            <a href="" class="btn">Download CV<i class='bx bxs-download'></i></a> <!--CV download-->
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box"> <!--cycling through my professions-->
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>Web Developer</h3>
+                    </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-camera' ></i>
+                    <h3>Photographer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-camera-movie' ></i>
+                    <h3>Videographer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+
+                <div class="circle"></div> <!--the wheel for the profession cycle-->
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img"> <!--a picture of me for the main page-->
+            <img src="IMAGES/Me.png" alt="me">
+        </div>
+    </section>
+
+    <!--section for the about me page-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="IMAGES/Me 2.png" alt="aboutimg">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm here to help you out!</h3>
+            <p>Fresh out of university and brimming with excitement, <br> I'm a web developer/designer with a passion for creating <br> visually stunning and functional online experiences.<br> But my creative spark doesn't stop at code! <br> Photography and videography are other loves of mine, <br> allowing me to capture the world's beauty through a single lens. <br> I believe these combined skills can bring a unique perspective to your web projects.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!--gallery section design-->
+    <section class="gallery" id="gallery">
+        <h2 class="heading"> A few <span>Pictures</span></h2>
+        <div class="gallery-container">
+            <div class="gallery-box">
+                <h2>1.</h2>
+                <a href="GALLERY/gallery1.jpg"><img src="GALLERY/gallery1.jpg" alt=""></a>
+            </div>
+            <div class="gallery-box">
+                <h2>2.</h2>
+                <a href="GALLERY/gallery2.jpg"><img src="GALLERY/gallery2.jpg" alt=""></a>
+            </div>
+            <div class="gallery-box">
+                <h2>3.</h2>
+                <a href="GALLERY/gallery3.jpg"><img src="GALLERY/gallery3.jpg" alt=""></a>
+            </div>
+            <div class="gallery-box">
+                <h2>4.</h2>
+                <a href="GALLERY/gallery4.jpg"><img src="GALLERY/gallery4.jpg" alt=""></a>
+            </div>
+            <div class="gallery-box">
+                <h2>5.</h2>
+                <a href="GALLERY/gallery5.jpg"><img src="GALLERY/gallery5.jpg" alt=""></a>
+            </div>
+            <div class="gallery-box">
+                <h2>6.</h2>
+                <a href="GALLERY/gallery6.jpg"><img src="GALLERY/gallery6.jpg" alt=""></a>
+            </div>
+            <div class="gallery-box">
+                <h2>7.</h2>
+                <a href="GALLERY/gallery7.jpeg"><img src="GALLERY/gallery7.jpeg" alt=""></a>
+            </div>
+            <div class="gallery-box">
+                <h2>8.</h2>
+                <a href="GALLERY/gallery8.jpg"><img src="GALLERY/gallery8.jpg" alt=""></a>
+            </div>
+            <div class="gallery-box">
+                <h2>9.</h2>
+                <a href="GALLERY/gallery9.jpg"><img src="GALLERY/gallery9.jpg" alt=""></a>
+            </div>
+            <div class="gallery-box">
+                <h2>10.</h2>
+                <a href="GALLERY/gallery10.jpg"><img src="GALLERY/gallery10.jpg" alt=""></a>
+            </div>
+        </div>
+        <section class="galleryVid-container" id="video">
+            <h1 class="heading">A short <span>video</span></h1>
+            <div id="gallery-vid">
+                <h2>11.</h2>
+                <video controls="controls" src="GALLERY/gallery11.mp4"></video>
+            </div>
+        </section>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form name="formValidate" action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" name="textValidate" placeholder="Email Adress">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="Send Message" onclick="ValidateEmail(document.formValidate.textValidate)" class="btn">
+        </form>
+    </section>
+
+    <!--footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Zuhayr Cader | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bxs-chevrons-up'></i></a>
+        </div>
+    </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
